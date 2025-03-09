@@ -19,4 +19,4 @@ Finally, looking at the cut energy spectrums, we can see that the graphs have a 
 
 # Conclusion
 
-## Placeholder
+Although our models aim to predict characteristics of neutrino particles, we can not fully determine the nature of such particles due to the complexity of neutrino particles. While our approach provides insights into energy spectrum reconstruction and PSD classification, further refinements are necessary to improve model performance, particularly in the critical 2000 keV region in the data after the PSD cuts. Future work could involve optimizing our individual models while looking into incorporating different parameters into our training. While the features used for our models have been extremely helpful in determining the relationships between features and the predictor label, the features we used for training are only limited to the 12 parameters we extracted from the raw waveform data. Additional parameters could be extracted from the raw waveform data which might provide a better explanation of the relationship between waveform characteristics and neutrino particles. 
