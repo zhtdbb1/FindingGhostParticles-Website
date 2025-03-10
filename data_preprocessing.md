@@ -16,5 +16,4 @@ Dozens of rows with missing values in the processed datasets are removed since n
 
 <center><img src="assets/images/waveform-example.png" alt="Raw Waveform" width="90%" height="90%"></center>
 <center><img src="assets/images/arrow.png" alt="Raw Waveform" width="10%" height="10%"></center>
-The head of the processed dataset with all 12 parameters is displayed in the image below.
 <center><img src="assets/images/head.jpg" alt="Raw Waveform" width="89%" height="100%"></center>
