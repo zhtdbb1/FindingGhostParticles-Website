@@ -138,6 +138,6 @@ After finishing the step above, please see your terminal for the results and gui
 ----
 
 [Our repo]: https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup
-[report]: [https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup](https://github.com/axie0927/artifact-directory/tree/main)
+[report]: [https://github.com/axie0927/artifact-directory/blob/main/report.pdf]
 [here]: https://github.com/zhtdbb1/FindingGhostParticles-Website
 [waveform data]: https://zenodo.org/records/8257027
