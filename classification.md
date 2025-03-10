@@ -7,10 +7,7 @@ nav_order: 2
 
 # Classification Group
 
-## Catboost
+Their website: [https://junismyname.github.io/MajoranaNeutrinoHunt-Website/]
 
-## XGBoost
-
-## LightGBM
-
-## Random Forest
+----
+[https://junismyname.github.io/MajoranaNeutrinoHunt-Website/]:https://junismyname.github.io/MajoranaNeutrinoHunt-Website/
