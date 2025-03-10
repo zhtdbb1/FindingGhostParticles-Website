@@ -11,7 +11,7 @@ Advancing energy regression in neutrino research through machine learning-driven
 
 [Get started now](#getting-started){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View it on GitHub][Our repo]{: .btn .btn-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Our report(TBC)][report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
+[Our report][report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
 
 {: .note }
 > The purple button above links to our project repo, click [here] or the link at the top right corner of this page to see the repo for this website.
@@ -138,6 +138,6 @@ After finishing the step above, please see your terminal for the results and gui
 ----
 
 [Our repo]: https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup
-[report]: https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup
+[report]: [https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup](https://github.com/axie0927/artifact-directory/tree/main)
 [here]: https://github.com/zhtdbb1/FindingGhostParticles-Website
 [waveform data]: https://zenodo.org/records/8257027
