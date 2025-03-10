@@ -12,7 +12,7 @@ has_children: true
 - [Ridge Regression](/regression#Ridge-Regression)
 - [Support Vector Machine Regression](/regression#Support-Vector-Machine-Regressor)
 - [Random Forest Regression](/regression#Random-Forest-Regressor)
-- [Neural Network (**Best final model**)](/regression.html#neural-networks)
+- [Neural Network (**Best final model**)](/regression.md#neural-networks)
 
 ## Overall Model Performance
 
