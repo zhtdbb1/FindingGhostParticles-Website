@@ -12,7 +12,7 @@ has_children: true
 - [Ridge Regression](/regression#Ridge-Regression)
 - [Support Vector Machine Regression](/regression#Support-Vector-Machine-Regressor)
 - [Random Forest Regression](/regression#Random-Forest-Regressor)
-- [Neural Network (**Best final model**)](/regression.md#neural-networks)
+- [Neural Network (**Best final model**)]
 
 ## Overall Model Performance
 
@@ -30,3 +30,10 @@ Image below is a violin plot with a y-axis ranging from -75 to +75 that shows th
 
 
 Most importantly, by comparing the two plots and the table at once, we can observe that although the NN model has a relatively similar range of residuals compared to the others, and RF has an even larger one, the probability mass table shows that only a small portion of the residuals are outliers. Despite the ridge regression and baseline model performing better than the RF model in the zoomed plot, we also need to consider the residuals outside of +75 and -75 which is hard to see but well explained by the probability mass table. Therefore, in terms of variance explained, consistency and MSE, NN will be our best overall model.
+
+----
+[Neural Network (**Best final model**)]: https://zhtdbb1.github.io/FindingGhostParticles-Website/regression.html#neural-networks
+[Linear Regression (**Baseline Model**)]: https://zhtdbb1.github.io/FindingGhostParticles-Website/regression.html#linear-regression-baseline-model
+[Ridge Regression]:https://zhtdbb1.github.io/FindingGhostParticles-Website/regression.html#ridge-regression
+[Support Vector Machine Regression]:https://zhtdbb1.github.io/FindingGhostParticles-Website/regression.html#support-vector-machine-regressor
+[Random Forest Regression]:https://zhtdbb1.github.io/FindingGhostParticles-Website/regression.html#random-forest-regressor
