@@ -78,11 +78,6 @@ Not all the parameters can be visualized.
   }
 </script>
 
-## Models and result
-
-The explanation of our models, conclusions and final result can be found in the left sidebar.
-{: .fs-5 .fw-500}
-
 ## Getting started
 ### Step 1: Installation Instructions
 How to clone the repository:
