@@ -8,10 +8,10 @@ has_children: true
 # Models
 
 ## Overview
-- [Linear Regression (**Baseline Model**)](/regression#Linear-Regression-Baseline-Model)
-- [Ridge Regression](/regression#Ridge-Regression)
-- [Support Vector Machine Regression](/regression#Support-Vector-Machine-Regressor)
-- [Random Forest Regression](/regression#Random-Forest-Regressor)
+- [Linear Regression (**Baseline Model**)]
+- [Ridge Regression]
+- [Support Vector Machine Regression]
+- [Random Forest Regression]
 - [Neural Network (**Best final model**)]
 
 ## Overall Model Performance
