@@ -21,7 +21,7 @@ regression model would be the most appropriate choice for our baseline model.
 This Model is our best overall model and we used it to predict the NPML dataset. You can find the predicted energy spectrum in the [conclusion section]({% link conclusion.md %})
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="assets/images/NN_Architechture.png" width="40%">
+  <img src="assets/images/NN_architechture.png" width="40%">
   <p style="margin-left: 15px;">The final model trained and evaluated was a Neural Network with three hidden layers: input -> 64 -> 32 -> 16 -> output, implemented using the PyTorch. The Rectified Linear Unit (ReLU) activation function was selected for the neural network due to its versatility and computational efficiency. Image on the left is the operation architechture of our NN model. It is crucial to note that null values were explicitly excluded from this analysis, as their presence could compromise the integrity of the algorithm and ruin the whole NN model. <br><br>
   Due to computational constraints, the number of epochs was limited to 30 in an optimal setting, increasing this to 100 would likely yield improved performance. However, since an early stopping was implemented to mitigate overfitting, so it often stops around 20 epochs.</p>
 </div>
