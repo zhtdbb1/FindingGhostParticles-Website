@@ -8,7 +8,7 @@ nav_order: 5
   
   <div style="text-align: left;">
     <a href="https://github.com/zhtdbb1">
-      <img src="assets/portrait/haotian.jpeg" width="100">
+      <img src="assets/portrait/Haotian.png" width="100">
     </a>
     <p><b>Haotian Zhu</b></p>
     <p> <a href="https://www.linkedin.com/in/haotian-zhu-12a1592b7/">LinkedIn</a></p>
