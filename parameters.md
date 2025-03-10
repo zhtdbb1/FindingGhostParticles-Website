@@ -32,7 +32,7 @@ To capture this relationship, there was an area created that approximated peak e
 of the charge and subtracted the actual area from 80% of the charge to the peak. This method was
 done using a summation of the energy points instead of fitting a line in order to keep the small
 changes in energy present in our growth rate.
-<center><img src="assets/images/Area_Growth_rate.png" alt="Raw Waveform" width="80%" height="80%"></center>
+<center><img src="assets/images/Area_Growth_Rate.png" alt="Raw Waveform" width="80%" height="80%"></center>
 
 ## Second derivative Inflection Points 
 The next parameter, our Second Derivative inflection points, finds the amount of inflection points
@@ -47,7 +47,7 @@ This is important because in our multi-site events there is an extra charge bein
 would mean that our slope would be lower in our multi-site events and due to this we can calculate
 the slope from our initial charge to the peak and use it as a parameter for our model. We can carry
 this out by fitting a line through linear regression to our rising edge and calculating the slope.
-<center><img src="assets/images/rising_edge_slope.png" alt="RES" width="80%" height="80%"></center>
+<center><img src="assets/images/Rising_Edge_Slope.png" alt="RES" width="80%" height="80%"></center>
 
 ## Rising Edge Asymmetry 
 The rising edge asymmetry parameter describes how tilted in a direction the rising edge of the signal
@@ -57,7 +57,7 @@ the charge look like a SSE. Another thing to look out for when calculating risin
 is if the curve is distorted beyond being comparable to a half-Gaussian, a half-Gaussian curve will
 have to be fit to be able to calculate the skewness. This can be dangerous since under-fitting or
 over-fitting should be avoided.
-<center><img src="assets/images/Rising_edge_asymmetry.png" alt="REA" width="80%" height="80%"></center>
+<center><img src="assets/images/Rising_Edge_Asymmetry.png" alt="REA" width="80%" height="80%"></center>
 
 ## Current Amplitude
 The current amplitude of a single waveform is the peak rate of charge collection, defined as I = dq/dt
@@ -68,7 +68,7 @@ Normalization is performed on the interpolated waveforms to eliminate energy dep
 applying a sliding window derivative function. In many signal processing or particle detection applications, energy dependence can influence measured values, leading to inconsistencies in parameters
 across events of different energies. Finalize the amplitude of a waveform by finding the maximum
 value of that waveform’s derivatives.
-<center><img src="assets/images/Current_Amplitude.png" alt="Current Amplitude" width="80%" height="80%"></center>
+<center><img src="assets/images/Current_amplitude.png" alt="Current Amplitude" width="80%" height="80%"></center>
 
 ## Energy Peak 
 After the particle hits the detector, the energy reaches its peak. A dramatic spike is visible in the
@@ -77,7 +77,7 @@ energy deposited by the particle in the detector, which is why it’s used as a 
 energy.
 The peak energy is extracted by locating the index of the maximum value in the waveform using the
 np.argmax() function, which shows the highest amplitude reached by the signal.
-<center><img src="assets/images/Energy_peak.png" alt="Energy Peak" width="80%" height="80%"></center>
+<center><img src="assets/images/Energy_Peak.png" alt="Energy Peak" width="80%" height="80%"></center>
 
 ## Tail Slope 
 The tail slope is the rate of charge collection over the length of the waveform’s tail. It indicates how
@@ -87,7 +87,7 @@ rate within the tail, so the slope of the event is less negative. Before the slo
 waveform has to be corrected for negative slope that could be induced by amplification circuits. The
 tail slope is calculated by fitting a linear model to the final segment or the “tail” of the waveform,
 giving us the slope which represents the decay rate of the signal. 
-<center><img src="assets/images/Tail_slope.png" alt="Tail slope" width="80%" height="80%"></center>
+<center><img src="assets/images/Tail_Slope.png" alt="Tail slope" width="80%" height="80%"></center>
 
 ## Delayed Charge Recovery 
 The DCR parameter helps to distinguish surface alpha background events by assessing the rate of
@@ -111,5 +111,5 @@ waveform’s “smoothness”. SSE waveforms tend to have a higher concentration
 frequencies because their energy distribution is concentrated at lower frequencies, resulting in high
 LFPR. In contrast, MSE waveforms have a more complex distribution of energy from interactions at
 multiple sites. This broader distribution leads to a lower LFPR.
-<center><img src="assets/images/Fourier_transformation_and_LFPR.png" alt="FT+LFPR" width="80%" height="80%"></center>
+<center><img src="assets/images/Fourier_Transformation_and_LFPR.png" alt="FT+LFPR" width="80%" height="80%"></center>
 
